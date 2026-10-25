@@ -15,6 +15,24 @@ All values were re-derived from the source recordings for this release (end-to-e
 | `results/results_fn06.json` | Aggregates produced by the full pipeline |
 | `methodology.md` | Definitions, method, parameters, limitations |
 
+## Visual results
+
+### Predicted motion blur vs relative sharpness
+
+![FN06: Predicted motion blur vs relative sharpness](assets/figures/sharpness-vs-predicted-blur.png)
+
+### Camera rotation rate vs relative sharpness
+
+![FN06: Camera rotation rate vs relative sharpness](assets/figures/sharpness-vs-rotation-rate.png)
+
+### Phone recording: motion and sharpness timeline
+
+![FN06: Phone recording: motion and sharpness timeline](assets/figures/phone-timeline-blur.png)
+
+### Example: sharper and motion-blurred frames
+
+![FN06: Example: sharper and motion-blurred frames](assets/figures/sharp-vs-blurred-frame.png)
+
 ## Key results
 * Gyro → image map fit: R² = 0.974
 * Spearman ρ (predicted blur vs relative sharpness): -0.62
