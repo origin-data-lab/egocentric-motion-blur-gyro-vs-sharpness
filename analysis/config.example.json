@@ -1,0 +1,23 @@
+{
+ "stereo": {
+  "video": "<path to src/ODL-EGO-S1/01_Video/left_120s.mp4>",
+  "frame_timestamps": "<path to src/ODL-EGO-S1/02_Timestamps/frame_timestamps_120s.csv>",
+  "imu": "<path to src/ODL-EGO-S1/03_Sensors/imu_120s.csv>"
+ },
+ "phones": {
+  "phone_knife_prep": {
+   "video": "<path to src/sample_A_knife/video/source_excerpt_sanitized.mp4>",
+   "imu": "<path to src/sample_A_knife/sensor/imu_native.csv>",
+   "keysteps": "<path to src/sample_A_knife/annotation/keysteps.json>",
+   "offset_json": "<path to src/ODL-EGO-M1_v2.2/validation/video_imu_offset.json>",
+   "offset_key": "sample_A_knife"
+  },
+  "phone_seasoning": {
+   "video": "<path to src/sample_B_seasoning/video/source_excerpt_sanitized.mp4>",
+   "imu": "<path to src/sample_B_seasoning/sensor/imu_native.csv>",
+   "keysteps": "<path to src/sample_B_seasoning/annotation/keysteps.json>",
+   "offset_json": "<path to src/ODL-EGO-M1_v2.2/validation/video_imu_offset.json>",
+   "offset_key": "sample_B_seasoning"
+  }
+ }
+}
